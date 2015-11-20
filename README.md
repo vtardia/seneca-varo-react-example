@@ -13,7 +13,7 @@ To run the project you need [Gulp][gulp], Node.js and npm.
 
  1. Run `npm install --global gulp` to install Gulp globally
  2. Run `npm install` to install all dependencies
- 3. Run `npm build` to create a deploy
+ 3. Run `npm run build` to create a deploy
  4. Run `npm start` to serve the app on port `3000`  
 
 If you want to experiment with the code you can run `gulp watch` on another shell and enjoy live editing.
