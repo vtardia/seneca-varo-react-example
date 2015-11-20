@@ -1,0 +1,38 @@
+{
+  "name": "seneca-varo-react-example",
+  "version": "1.0.0",
+  "description": "An implementation of FB React tutorial http://facebook.github.io/react/docs/tutorial.html using Seneca.js and Varo",
+  "repository": "https://github.com/vtardia/seneca-varo-react-example",
+  "main": "./lib/server.js",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5",
+    "node-uuid": "^1.4.7",
+    "seneca": "^0.7.2",
+    "seneca-jsonrest-api": "^0.3.1",
+    "seneca-web": "senecajs/seneca-web",
+    "varo": "^0.2.0"
+  },
+  "scripts": {
+    "start": "node lib/server.js",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "autobind-decorator": "^1.3.2",
+    "babel": "^5.8.23",
+    "babelify": "^6.4.0",
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "jquery": "^2.1.4",
+    "marked": "^0.3.5",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.6.0"
+  }
+}
