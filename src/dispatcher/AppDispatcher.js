@@ -1,4 +1,4 @@
-// Using Varo-based dispatcher
-import Dispatcher from './Dispatcher'
+// Using varo-flux dispatcher
+import {Dispatcher} from 'varo-flux'
 
 export default new Dispatcher()

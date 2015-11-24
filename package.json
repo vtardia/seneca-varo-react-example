@@ -11,7 +11,8 @@
     "seneca": "^0.7.2",
     "seneca-jsonrest-api": "^0.3.1",
     "seneca-web": "senecajs/seneca-web",
-    "varo": "^0.2.0"
+    "varo": "^0.2.0",
+    "varo-flux": "^1.0.0"
   },
   "scripts": {
     "start": "node lib/server.js",
