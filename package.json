@@ -5,12 +5,12 @@
   "repository": "https://github.com/vtardia/seneca-varo-react-example",
   "main": "./lib/server.js",
   "dependencies": {
-    "body-parser": "^1.4.3",
-    "express": "^4.4.5",
+    "body-parser": "^1.14.1",
+    "connect": "^3.4.0",
     "node-uuid": "^1.4.7",
-    "seneca": "^0.7.2",
+    "seneca": "^0.8.0",
     "seneca-jsonrest-api": "^0.3.1",
-    "seneca-web": "senecajs/seneca-web",
+    "serve-static": "^1.10.0",
     "varo": "^0.2.0",
     "varo-flux": "^1.0.0"
   },
